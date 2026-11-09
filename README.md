@@ -20,3 +20,7 @@ Esta publicación incorpora una lista de obras, creación de cuadros con imagen 
 ## Acceso privado administrativo — integración preparada
 
 El editor requiere una sesión Supabase autorizada; sin configurar URL y publishable key en la rama de desarrollo permanecerá cerrado. Se incluye login.html, admin-auth.js y SQL RLS. El visor público continúa disponible. Esta actualización despliega el cambio sin modificar Visor-222/main.
+
+## Publicación controlada del catálogo (fase de pruebas)
+
+El convertidor de proyectos JSON ya se validó con el cuadro Creeper. El flujo «Publicar catálogo AR en desarrollo» actualiza únicamente la rama de desarrollo de Visor-222. Este sitio Preview también comprueba periódicamente cambios de esa rama. La autenticación Supabase sigue pendiente; nunca se usa una contraseña en el código público.
