@@ -12,3 +12,7 @@ La vista previa incluye `editor.html` con posición, profundidad, escala, rotaci
 ## Vista previa de capas por QR entre PC y celular
 
 El editor ahora permite **Probar en mi celular · QR**. El enlace incluye los parámetros actuales de las cinco capas originales y el visor los aplica sin cambiar la publicación principal. Esta actualización ejecuta la publicación del sitio de pruebas.
+
+## Administrador de múltiples cuadros
+
+Esta publicación incorpora una lista de obras, creación de cuadros con imagen objetivo y capas PNG independientes, duplicación con nueva referencia, reordenación, eliminación, importación/exportación JSON y prueba de reconocimiento de múltiples objetivos AR con almacenamiento temporal IndexedDB. Los diseños nuevos solo se guardan localmente; no hay publicación automática ni autenticación.
