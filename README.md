@@ -24,3 +24,7 @@ El editor requiere una sesión Supabase autorizada; sin configurar URL y publish
 ## Publicación controlada del catálogo (fase de pruebas)
 
 El convertidor de proyectos JSON ya se validó con el cuadro Creeper. El flujo «Publicar catálogo AR en desarrollo» actualiza únicamente la rama de desarrollo de Visor-222. Este sitio Preview también comprueba periódicamente cambios de esa rama. La autenticación Supabase sigue pendiente; nunca se usa una contraseña en el código público.
+
+## Optimización de reconocimiento v3
+
+El catálogo publicado incluye `targets.mind` generado antes de llegar al celular y el visor lo utiliza directamente. Para múltiples cuadros, únicamente se cargan al inicio las capas PNG de la primera obra; las demás se descargan al reconocer la referencia. Supabase permanece pendiente. Sin cambios en la versión principal.
