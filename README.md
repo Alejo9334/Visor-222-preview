@@ -36,3 +36,7 @@ Se activa la optimización de capas PNG en el flujo de publicación de la rama d
 ## Ajuste de texto del visor público
 
 Bienvenida: «Tu imagen cobra vida». Instrucción: «Activa la cámara y apunta a una de las imágenes registradas». Actualización exclusiva de Preview.
+
+## Texto de bienvenida · Opción 3
+
+Título: «La magia está frente a ti». Descripción: «Activa tu cámara y observa cómo las imágenes cobran vida ante tus ojos». Se actualiza el Preview desde la rama de desarrollo, sin modificar la versión principal.
