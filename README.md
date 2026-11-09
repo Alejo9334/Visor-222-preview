@@ -32,3 +32,7 @@ El catálogo publicado incluye `targets.mind` generado antes de llegar al celula
 ## Optimización automática de imágenes PNG
 
 Se activa la optimización de capas PNG en el flujo de publicación de la rama de desarrollo. Los originales se conservan y se utilizan WebP transparentes cuando reducen el peso. Primera prueba Minecraft: 4,08 MB → 1,15 MB (71,7 % menos). Informe visual: `optimizar.html`; la autenticación administrativa continúa pendiente y el visor público original no se modifica.
+
+## Ajuste de texto del visor público
+
+Bienvenida: «Tu imagen cobra vida». Instrucción: «Activa la cámara y apunta a una de las imágenes registradas». Actualización exclusiva de Preview.
