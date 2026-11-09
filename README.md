@@ -16,3 +16,7 @@ El editor ahora permite **Probar en mi celular · QR**. El enlace incluye los pa
 ## Administrador de múltiples cuadros
 
 Esta publicación incorpora una lista de obras, creación de cuadros con imagen objetivo y capas PNG independientes, duplicación con nueva referencia, reordenación, eliminación, importación/exportación JSON y prueba de reconocimiento de múltiples objetivos AR con almacenamiento temporal IndexedDB. Los diseños nuevos solo se guardan localmente; no hay publicación automática ni autenticación.
+
+## Acceso privado administrativo — integración preparada
+
+El editor requiere una sesión Supabase autorizada; sin configurar URL y publishable key en la rama de desarrollo permanecerá cerrado. Se incluye login.html, admin-auth.js y SQL RLS. El visor público continúa disponible. Esta actualización despliega el cambio sin modificar Visor-222/main.
