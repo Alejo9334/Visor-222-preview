@@ -28,3 +28,7 @@ El convertidor de proyectos JSON ya se validó con el cuadro Creeper. El flujo �
 ## Optimización de reconocimiento v3
 
 El catálogo publicado incluye `targets.mind` generado antes de llegar al celular y el visor lo utiliza directamente. Para múltiples cuadros, únicamente se cargan al inicio las capas PNG de la primera obra; las demás se descargan al reconocer la referencia. Supabase permanece pendiente. Sin cambios en la versión principal.
+
+## Optimización automática de imágenes PNG
+
+Se activa la optimización de capas PNG en el flujo de publicación de la rama de desarrollo. Los originales se conservan y se utilizan WebP transparentes cuando reducen el peso. Primera prueba Minecraft: 4,08 MB → 1,15 MB (71,7 % menos). Informe visual: `optimizar.html`; la autenticación administrativa continúa pendiente y el visor público original no se modifica.
