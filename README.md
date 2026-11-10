@@ -48,3 +48,7 @@ La nueva vista previa incorpora una confirmación luminosa al reconocer imágene
 ## Nuevo panel para registrar imágenes AR
 
 Se añade `preparar-imagen.html`: imagen física JPG/PNG, hasta 15 capas PNG, ajustes de profundidad y animación, vista previa y generación de un único archivo JSON. Después de subirlo mediante la sesión autenticada de GitHub a `proyectos/pendientes/`, la acción de desarrollo añadirá el diseño al catálogo, organizará archivos, optimizará texturas y compilará el reconocimiento. Sin tokens en el navegador ni cambios a main.
+
+## Editor visual local sin Supabase (Preview)
+
+Se habilita `editor.html` sin inicio de sesión y se retiran las acciones de nube privada. El antiguo `login.html` redirige al editor. `preparar-imagen.html` permite crear paquetes JSON y la publicación requiere autenticación con permisos de escritura en GitHub. Los clientes utilizan únicamente el visor público. El código principal permanece sin modificar.
