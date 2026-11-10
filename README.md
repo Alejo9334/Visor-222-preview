@@ -65,3 +65,8 @@ Se incorporó en la rama de desarrollo el efecto de salida frontal progresiva de
 ### Actualización de vista previa
 
 La vista previa se construye desde `public/prototipo-ar` de la rama `desarrollo/multicuadros-ar-v2` del repositorio `Visor-222`. Cada publicación de Preview copia el catálogo AR, el archivo de reconocimiento y los recursos de imagen desde esa rama.
+
+
+### Reconocimiento AR y caché
+
+Cada compilación de `targets.mind` incorpora una huella de contenido (`cacheKey`). El visor añade esa huella a la URL del archivo de reconocimiento para evitar que los dispositivos reutilicen una versión anterior desde la caché.
