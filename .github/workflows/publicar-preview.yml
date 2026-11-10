@@ -20,10 +20,20 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Obtener prototipo y sus imágenes desde Visor-222
+      - name: Detectar repositorio de código fuente
+        id: source
+        shell: bash
+        run: |
+          if git ls-remote --exit-code https://github.com/Alejo9334/Code-fuente.git HEAD >/dev/null 2>&1; then
+            echo "repository=Alejo9334/Code-fuente" >> "$GITHUB_OUTPUT"
+          else
+            echo "repository=Alejo9334/Visor-222" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Obtener prototipo y sus imágenes desde código fuente
         uses: actions/checkout@v4
         with:
-          repository: Alejo9334/Visor-222
+          repository: ${{ steps.source.outputs.repository }}
           ref: desarrollo/multicuadros-ar-v2
           sparse-checkout: |
             public/prototipo-ar
