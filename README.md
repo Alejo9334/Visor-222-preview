@@ -78,3 +78,8 @@ La Preview incorpora una entrada frontal cinematográfica con escalonado por pro
 
 
 Catálogo de demostración actualizado: Minecraft y Carnet utilizan ahora emergencia cinematográfica de 1,6 s, escala inicial del 62 %, profundidad Z escalonada y perfiles alternados de flotación, pulso y giro por capa. El archivo `targets.mind` fue recompilado en la rama de desarrollo con sus dos objetivos.
+
+
+## Editor 3D de capas PNG
+
+Preview incorpora un lienzo de capas en perspectiva 3D con vistas Perspectiva, Frontal, Lateral y Superior. Se añadió separación global entre PNG y ajuste individual de separación Z por capa. Los valores se conservan en el proyecto JSON, el publicador y el visor AR. La vista 3D es una representación de planos PNG (2.5D), no geometría 3D real. Los cambios están aislados en la rama `desarrollo/multicuadros-ar-v2`; la aplicación principal no se modifica.
