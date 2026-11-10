@@ -94,3 +94,18 @@ Publicación sincronizada con la validación más reciente de la rama `desarroll
 
 
 Última sincronización verificada: rama `desarrollo/multicuadros-ar-v2`, commit `4e3e9cdf7f4fd9fba175b1c4932ee4f6ceb592e1`. La validación de GitHub Actions pasó (compilación, editor, visor, exportación y publicación de muestra). Se incluye el ajuste para permitir separación global de 0% sin reemplazarla por el valor predeterminado al exportar.
+
+
+## Editor avanzado 2.5D · Actualización noviembre 2026
+
+La vista previa se sincroniza desde `Alejo9334/Visor-222`, rama `desarrollo/multicuadros-ar-v2`. Esta versión incorpora:
+
+- Puntos de anclaje predefinidos y personalizados por capa.
+- Rotación independiente X, Y y Z.
+- Historial de deshacer/rehacer con atajos Ctrl/Cmd+Z y Ctrl/Cmd+Y.
+- Sombras PNG por capa con desenfoque, desplazamiento y opacidad.
+- Animaciones por trayectoria: circular, figura de ocho y arco.
+- Parallax de cámara mediante orientación del dispositivo, con permiso cuando el sistema lo exige.
+- Presets de composición por cuadro para guardar y reutilizar transformaciones, sombras, animaciones, separación y parallax.
+
+Los nuevos parámetros se conservan en el JSON de publicación y el visor AR; el QR usa formato v3 y mantiene compatibilidad con los formatos anteriores. La compilación y las pruebas automatizadas de la rama de desarrollo finalizaron correctamente. La aplicación principal no se modifica.
