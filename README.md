@@ -109,3 +109,8 @@ La vista previa se sincroniza desde `Alejo9334/Visor-222`, rama `desarrollo/mult
 - Presets de composición por cuadro para guardar y reutilizar transformaciones, sombras, animaciones, separación y parallax.
 
 Los nuevos parámetros se conservan en el JSON de publicación y el visor AR; el QR usa formato v3 y mantiene compatibilidad con los formatos anteriores. La compilación y las pruebas automatizadas de la rama de desarrollo finalizaron correctamente. La aplicación principal no se modifica.
+
+
+## Editor: actualizar experiencias publicadas
+
+Sincronización del botón «Actualizar experiencia publicada» desde Code-fuente/desarrollo/multicuadros-ar-v2. El editor permite exportar una actualización de un cuadro existente y subirla a proyectos/actualizaciones de Code-fuente. El flujo GitHub Actions valida y actualiza únicamente esa experiencia, preservando la imagen de reconocimiento y el resto de obras. No se usan tokens en el navegador. Actualizado el 10 de noviembre de 2026.
