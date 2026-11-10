@@ -52,3 +52,7 @@ Se añade `preparar-imagen.html`: imagen física JPG/PNG, hasta 15 capas PNG, aj
 ## Editor visual local sin Supabase (Preview)
 
 Se habilita `editor.html` sin inicio de sesión y se retiran las acciones de nube privada. El antiguo `login.html` redirige al editor. `preparar-imagen.html` permite crear paquetes JSON y la publicación requiere autenticación con permisos de escritura en GitHub. Los clientes utilizan únicamente el visor público. El código principal permanece sin modificar.
+
+## Panel unificado de Visor-222
+
+El editor visual (`editor.html`) ahora reúne creación y carga de referencia, selección múltiple de PNG, propiedades y animaciones, guardado local, importación/exportación JSON, y generación del paquete publicable del cuadro activo con comprobación de IDs ya publicados. La ruta anterior `preparar-imagen.html` redirige al editor. La publicación sigue requiriendo cuenta autorizada de GitHub; el cliente solo accede a `index.html`. No se modifica la aplicación principal.
