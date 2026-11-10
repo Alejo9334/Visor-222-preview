@@ -56,3 +56,7 @@ Se habilita `editor.html` sin inicio de sesión y se retiran las acciones de nub
 ## Panel unificado de Visor-222
 
 El editor visual (`editor.html`) ahora reúne creación y carga de referencia, selección múltiple de PNG, propiedades y animaciones, guardado local, importación/exportación JSON, y generación del paquete publicable del cuadro activo con comprobación de IDs ya publicados. La ruta anterior `preparar-imagen.html` redirige al editor. La publicación sigue requiriendo cuenta autorizada de GitHub; el cliente solo accede a `index.html`. No se modifica la aplicación principal.
+
+## Emergencia cinematográfica 2.5D por imagen
+
+Se incorporó en la rama de desarrollo el efecto de salida frontal progresiva de las capas PNG, con duración predeterminada de 1.4 segundos, escala inicial de 70 %, profundidad cinematográfica y destello opcional. El editor permite ajustar por cuadro duración, escala, intensidad, activación y brillo. El publicador preserva estos parámetros en el JSON del catálogo. MindAR, las imágenes de referencia y la aplicación principal no cambian. Respetar reducir movimiento del dispositivo.
