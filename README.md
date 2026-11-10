@@ -70,3 +70,8 @@ La vista previa se construye desde `public/prototipo-ar` de la rama `desarrollo/
 ### Reconocimiento AR y caché
 
 Cada compilación de `targets.mind` incorpora una huella de contenido (`cacheKey`). El visor añade esa huella a la URL del archivo de reconocimiento para evitar que los dispositivos reutilicen una versión anterior desde la caché.
+
+
+## Actualización 2.5D — profundidad y movimiento por capa
+
+La Preview incorpora una entrada frontal cinematográfica con escalonado por profundidad, un pequeño rebote de llegada y movimiento ambiental independiente por capa PNG. El editor incluye el preset opcional «Aplicar profundidad + movimiento 2.5D», que distribuye Z y asigna flotación, pulso o giro a cada capa; el usuario puede seguir ajustándolas individualmente. Se mantienen MindAR, el catálogo multimarcador y los recursos existentes. Cambios desarrollados y validados únicamente en `desarrollo/multicuadros-ar-v2`.
