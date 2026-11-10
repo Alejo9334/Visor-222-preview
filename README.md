@@ -40,3 +40,7 @@ Bienvenida: «Tu imagen cobra vida». Instrucción: «Activa la cámara y apunta
 ## Texto de bienvenida · Opción 3
 
 Título: «La magia está frente a ti». Descripción: «Activa tu cámara y observa cómo las imágenes cobran vida ante tus ojos». Se actualiza el Preview desde la rama de desarrollo, sin modificar la versión principal.
+
+## Experiencia inmersiva con reconocimiento cinematográfico
+
+La nueva vista previa incorpora una confirmación luminosa al reconocer imágenes, entrada progresiva por capas sin modificar las animaciones propias y un botón de vista inmersiva para celulares. Respeta la preferencia del sistema de reducir movimiento; la aplicación principal continúa intacta.
