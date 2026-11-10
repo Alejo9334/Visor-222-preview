@@ -44,3 +44,7 @@ Título: «La magia está frente a ti». Descripción: «Activa tu cámara y obs
 ## Experiencia inmersiva con reconocimiento cinematográfico
 
 La nueva vista previa incorpora una confirmación luminosa al reconocer imágenes, entrada progresiva por capas sin modificar las animaciones propias y un botón de vista inmersiva para celulares. Respeta la preferencia del sistema de reducir movimiento; la aplicación principal continúa intacta.
+
+## Nuevo panel para registrar imágenes AR
+
+Se añade `preparar-imagen.html`: imagen física JPG/PNG, hasta 15 capas PNG, ajustes de profundidad y animación, vista previa y generación de un único archivo JSON. Después de subirlo mediante la sesión autenticada de GitHub a `proyectos/pendientes/`, la acción de desarrollo añadirá el diseño al catálogo, organizará archivos, optimizará texturas y compilará el reconocimiento. Sin tokens en el navegador ni cambios a main.
