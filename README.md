@@ -91,3 +91,6 @@ La Preview sincroniza desde `Alejo9334/Visor-222`, rama `desarrollo/multicuadros
 
 
 Publicación sincronizada con la validación más reciente de la rama `desarrollo/multicuadros-ar-v2`: animaciones controladas únicamente por wrappers 2.5D (sin duplicar animaciones A-Frame), con separación global 0–8%, ajuste individual ±8%, escalas X/Y independientes y compatibilidad QR v2.
+
+
+Última sincronización verificada: rama `desarrollo/multicuadros-ar-v2`, commit `4e3e9cdf7f4fd9fba175b1c4932ee4f6ceb592e1`. La validación de GitHub Actions pasó (compilación, editor, visor, exportación y publicación de muestra). Se incluye el ajuste para permitir separación global de 0% sin reemplazarla por el valor predeterminado al exportar.
