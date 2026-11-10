@@ -83,3 +83,8 @@ Catálogo de demostración actualizado: Minecraft y Carnet utilizan ahora emerge
 ## Editor 3D de capas PNG
 
 Preview incorpora un lienzo de capas en perspectiva 3D con vistas Perspectiva, Frontal, Lateral y Superior. Se añadió separación global entre PNG y ajuste individual de separación Z por capa. Los valores se conservan en el proyecto JSON, el publicador y el visor AR. La vista 3D es una representación de planos PNG (2.5D), no geometría 3D real. Los cambios están aislados en la rama `desarrollo/multicuadros-ar-v2`; la aplicación principal no se modifica.
+
+
+## Editor ampliado: escala independiente y nuevas animaciones
+
+La Preview sincroniza desde `Alejo9334/Visor-222`, rama `desarrollo/multicuadros-ar-v2`. El editor amplía la separación global entre PNG a 0–8% y la separación individual a ±8%; amplía posición X/Y a ±100%, profundidad a 100% y escala general a 300%. Añade escala horizontal X y vertical Y independientes (25–300%). Las animaciones independientes incluyen ahora Desplazamiento lateral y Balanceo 3D, además de Flotación, Pulso y Rotación. Los ajustes de separación y animación se conservan al preparar publicaciones y al compartir la vista previa mediante QR v2. La rama pública principal de Visor-222 no se modifica.
