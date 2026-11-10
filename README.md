@@ -75,3 +75,6 @@ Cada compilación de `targets.mind` incorpora una huella de contenido (`cacheKey
 ## Actualización 2.5D — profundidad y movimiento por capa
 
 La Preview incorpora una entrada frontal cinematográfica con escalonado por profundidad, un pequeño rebote de llegada y movimiento ambiental independiente por capa PNG. El editor incluye el preset opcional «Aplicar profundidad + movimiento 2.5D», que distribuye Z y asigna flotación, pulso o giro a cada capa; el usuario puede seguir ajustándolas individualmente. Se mantienen MindAR, el catálogo multimarcador y los recursos existentes. Cambios desarrollados y validados únicamente en `desarrollo/multicuadros-ar-v2`.
+
+
+Catálogo de demostración actualizado: Minecraft y Carnet utilizan ahora emergencia cinematográfica de 1,6 s, escala inicial del 62 %, profundidad Z escalonada y perfiles alternados de flotación, pulso y giro por capa. El archivo `targets.mind` fue recompilado en la rama de desarrollo con sus dos objetivos.
